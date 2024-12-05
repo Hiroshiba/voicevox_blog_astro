@@ -22,22 +22,24 @@ test.describe("http meta", () => {
       const metaInfo = {} as Record<string, string | undefined>;
 
       metaInfo.canonicalUrl = http.match(
-        /<link rel="canonical" href="(.*?)"/,
+        /<link .*?rel="canonical" href="(.*?)"/,
       )?.[1];
 
-      metaInfo.title = http.match(/<title>(.*?)<\/title>/)?.[1];
+      metaInfo.title = http.match(/<title.*?>(.*?)<\/title>.*?/)?.[1];
 
       metaInfo.description = http.match(
-        /<meta name="description" content="(.*?)"/,
+        /<meta .*?name="description" content="(.*?)"/,
       )?.[1];
 
-      metaInfo.robots = http.match(/<meta name="robots" content="(.*?)"/)?.[1];
+      metaInfo.robots = http.match(
+        /<meta .*?name="robots" content="(.*?)"/,
+      )?.[1];
 
       expect(JSON.stringify(metaInfo, null, 2)).toMatchSnapshot();
 
       // og:imageのテスト
       const ogImageUrl = http.match(
-        /<meta property="og:image" content="(.*?)"/,
+        /<meta .*?name="og:image" content="(.*?)"/,
       )?.[1];
       if (ogImageUrl != undefined) {
         // 相対パスになっているものとURLになっているものがあるので両方に対応

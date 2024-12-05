@@ -1,6 +1,5 @@
 {
   "canonicalUrl": "https://voicevox.hiroshiba.jp/dormitory/mochikosan/",
-  "title": "もち子さん | ボイボ寮 プロフィール | VOICEVOX",
-  "description": "小さい背丈で頑張る君を応援！<br />福島県生まれのプラモ好き犬系ヲタ娘です",
-  "robots": "index, follow"
+  "title": "もち子さん | ボイボ寮 | VOICEVOX",
+  "description": "小さい背丈で頑張る君を応援！&lt;br /&gt;福島県生まれのプラモ好き犬系ヲタ娘です"
 }

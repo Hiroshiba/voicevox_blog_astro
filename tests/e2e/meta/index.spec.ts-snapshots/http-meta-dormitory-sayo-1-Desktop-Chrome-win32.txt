@@ -1,6 +1,5 @@
 {
   "canonicalUrl": "https://voicevox.hiroshiba.jp/dormitory/sayo/",
-  "title": "小夜/SAYO | ボイボ寮 プロフィール | VOICEVOX",
-  "description": "おしゃべりがすきなねこの女の子。<br />おいしいものを与えると懐きやすい。",
-  "robots": "index, follow"
+  "title": "小夜/SAYO | ボイボ寮 | VOICEVOX",
+  "description": "おしゃべりがすきなねこの女の子。&lt;br /&gt;おいしいものを与えると懐きやすい。"
 }

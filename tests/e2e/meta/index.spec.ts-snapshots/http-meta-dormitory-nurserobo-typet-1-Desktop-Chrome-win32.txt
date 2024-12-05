@@ -1,6 +1,5 @@
 {
   "canonicalUrl": "https://voicevox.hiroshiba.jp/dormitory/nurserobo_typet/",
-  "title": "ナースロボ＿タイプＴ | ボイボ寮 プロフィール | VOICEVOX",
-  "description": "医者に作られたナース形ロボット。<br />人格は少女と設定されている。",
-  "robots": "index, follow"
+  "title": "ナースロボ＿タイプＴ | ボイボ寮 | VOICEVOX",
+  "description": "医者に作られたナース形ロボット。&lt;br /&gt;人格は少女と設定されている。"
 }

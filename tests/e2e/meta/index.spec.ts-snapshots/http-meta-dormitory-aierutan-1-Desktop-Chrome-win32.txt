@@ -1,6 +1,5 @@
 {
   "canonicalUrl": "https://voicevox.hiroshiba.jp/dormitory/aierutan/",
-  "title": "あいえるたん | ボイボ寮 プロフィール | VOICEVOX",
-  "description": "札幌市内の高校に通う元気な女子高生。<br />IT企業でマスコット/アルバイトとして活躍中。",
-  "robots": "index, follow"
+  "title": "あいえるたん | ボイボ寮 | VOICEVOX",
+  "description": "札幌市内の高校に通う元気な女子高生。&lt;br /&gt;IT企業でマスコット/アルバイトとして活躍中。"
 }
